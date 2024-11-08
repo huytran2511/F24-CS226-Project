@@ -1,0 +1,28 @@
+# Ignore CSV datasets
+data/*.csv
+
+# Ignore all data files in the data directory
+data/
+
+# Ignore large files
+*.csv
+*.tsv
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python virtual environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore environment files
+.env
